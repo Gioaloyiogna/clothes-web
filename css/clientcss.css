@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  font-family: sans-serif;
+}
+.profile-header{
+  position: relative;
+  min-width: 100%;
+  height: 15rem;
+  background-color: #7f01aa;
+  color: white;
+}
+.userdetails{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  min-width: 100%;
+  height: 8rem;
+  bottom: 0;
+ 
+}
+.userpic{
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 4rem;
+  text-align: center;
+}
+.userpic img{
+  width:9rem;
+  height:9rem;
+  border-radius: 100%;
+}
+.userinfo2{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  min-width: 100%;
+  padding-top: 1rem;
+  background-color:black;
+}
+.userinfo3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  color: white;
+}
+.editprofile{
+  margin-right: 0.5rem;
+}
+.Aboutme{
+  font-family: cursive;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    color:black;
+    background-color: white;
+}
+.Aboutmeinfo{
+padding-right: 25rem;
+}
+#btn{
+  background-color: #7f01aa;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding:0.25rem;
+  margin-left: 6.5rem;
+}
+.photos {
+   font-weight: bold;
+}
+.picsdiv{
+
+    /*background-color: #f7f1e3;*/
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-column-gap: 4rem;
+}
+.picsdiv span{
+  color:  #f7f1e3;
+}
+.picsdiv img{
+  max-width: 100%;
+  max-height:100%;
+}
+.pictures{
+  font-family: cursive;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+
+}
+.pictures h2{
+  min-width: 100%;
+padding-left:23rem;
+padding-bottom: 2rem;
+color:black;
+background-color: white;
+}
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #ffe707;
+
+}
+@media screen and (max-width: 1030px) {
+  td, th{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+   }
